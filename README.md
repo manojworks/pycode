@@ -18,3 +18,8 @@ Write a program that reads a word list from a file  and prints all the sets of w
 - 'resmelts', 'smelters', 'termless'
 
 Hint: you might want to build a dictionary that maps from a set of letters to a list of words that can be spelled with those letters. The question is, how can you represent the set of letters in a way that can be used as a key? Modify the previous program so that it prints the largest set of anagrams first, followed by the second largest set, and so on.
+
+*Metathesis Pairs*
+
+Two words form a “metathesis pair” if you can transform one into the other by swapping two letters; for example, “converse” and “conserve.” Write a program that finds all of the metathesis pairs in the dictionary.
+Hint: don’t test all pairs of words, and don’t test all possible swaps.
