@@ -1,44 +1,52 @@
 class StackEmpty(Exception):
-
+"""
+    Placeholder for exception when the stack is empty
+"""
     def __str__(self):
         return "Stack empty"
 
-
+"""
+    A stak ADT implementation  based on a list
+"""
 class Stack_t:
 
     def __init__(self):
         self._data = []
 
+    # push to stack
     def push(self, val):
         self._data.append(val)
 
+    # pop from stack
     def pop(self):
         if len(self._data) == 0:
             raise StackEmpty
 
         return self._data.pop()
 
+    # is stack empty
     def is_empty(self):
         return len(self._data) == 0
 
+    # return the top of stack, without popping the element
     def top(self):
         if not self.is_empty():
             return self._data[-1]
         else:
             return None
 
+    # return size of the stack
     def size(self):
         return len(self._data)
 
     def __str__(self):
         return ' , '.join(str(ch) for ch in self._data)
 
-
+# driver code
 def make_stack():
     s = Stack_t()
 
     for ch in 'rats live on no evil star':
-    #for ch in 'rotator':
         s.push(ch)
 
     return s
