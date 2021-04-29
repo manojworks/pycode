@@ -65,3 +65,31 @@ To improve the performance of your program, you might want to memorize the words
 14. Given a string, return true if it is a nesting of zero or more pairs of parenthesis, like "(())" or "((()))". Suggestion: check the first and last chars, and then recur on what's inside them.
 15. Given an array of ints, compute recursively if the array contains somewhere a value followed in the array by that value times 10. We'll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.
 
+*Stack and related problems*
+
+1. Placeholder for exception when the stack is empty
+2. A stak ADT implementation  based on a list
+  * push to stack
+  * pop from stack
+  * is stack empty
+  * return the top of stack, without popping the element
+  * return size of the stack
+  * string representation of stack elements
+3. Here is a technique that employs two stacks in order to determine if a phrase is a palindrome, that is, reads the same forward and backward (for example, the word “rotator'” is a palindrome, as is the string “rats live on no evil star”). Read the characters one by one and transfer them into a stack. The characters in  the stack will then represent the reversed word. Once all characters have been read, transfer half the characters from the first stack into a second stack. Thus, the order of the words will have been restored. If there were an odd number of characters, remove one further character from the original stack. Finally, test the two stacks for equality, element by element. If they are the same, then the word is a palindrome. Write a procedure that takes a String argument and tests to see if it is a palindrome using this algorithm.
+4. Give a recursive implementation of the client-side function int stack_size(stack_t S); that takes as input a stack S and returns the number of elements in it. Upon returning, the input stack should contain the same elements in the same order as when it was called.
+5. Implement the function void stack_sort(stack_t S); that sorts its input stack in-place. The resulting stack should be sorted in ascending order, with the largest item at the top and the smallest at the bottom. Your code may use temporary stacks but no other data structures. You may use any function on stack interface. Hint an effective way to solve this exercise is carefully consider what loop invariants should hold at various points.
+6. Another example of the parentheses matching problem comes from hypertext markup language (HTML). In HTML, tags exist in both opening and closing forms and must be balanced to properly describe a web document. This very simple HTML document:
+
+ <html>
+    <head>
+       <title>
+          Example
+       </title>
+    </head>
+
+    <body>
+       <h1>Hello, world</h1>
+    </body>
+ </html>
+is intended only to show the matching and nesting structure for tags in the language. Write a program that can check an HTML document for proper opening and closing tags.
+
