@@ -96,3 +96,6 @@ To improve the performance of your program, you might want to memorize the words
 
 is intended only to show the matching and nesting structure for tags in the language. Write a program that can check an HTML document for proper opening and closing tags.
 
+*Two Stacks in an Array*
+Describe a structure which provides two stacks with a single array as backup structure. Implement the Pop and Push operations.
+
