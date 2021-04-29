@@ -80,6 +80,7 @@ To improve the performance of your program, you might want to memorize the words
 5. Implement the function void stack_sort(stack_t S); that sorts its input stack in-place. The resulting stack should be sorted in ascending order, with the largest item at the top and the smallest at the bottom. Your code may use temporary stacks but no other data structures. You may use any function on stack interface. Hint an effective way to solve this exercise is carefully consider what loop invariants should hold at various points.
 6. Another example of the parentheses matching problem comes from hypertext markup language (HTML). In HTML, tags exist in both opening and closing forms and must be balanced to properly describe a web document. This very simple HTML document:
 
+```
  <html>
     <head>
        <title>
@@ -91,5 +92,7 @@ To improve the performance of your program, you might want to memorize the words
        <h1>Hello, world</h1>
     </body>
  </html>
+```
+
 is intended only to show the matching and nesting structure for tags in the language. Write a program that can check an HTML document for proper opening and closing tags.
 
