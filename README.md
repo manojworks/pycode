@@ -99,3 +99,13 @@ is intended only to show the matching and nesting structure for tags in the lang
 *Two Stacks in an Array*
 Describe a structure which provides two stacks with a single array as backup structure. Implement the Pop and Push operations.
 
+*Queue ADT based problems*
+1. Implementation of Queue ADT based on list with caoacity management
+2. Given M integers, task is to find the frequency of each number in the Queue.
+3. Given an integer K and a queue of integers, we need to reverse the order of the first K elements of the queue, leaving the other elements in the same relative order. Only following standard operations are allowed on queue.
+* enqueue(x) : Add an item x to rear of queue
+* dequeue() : Remove an item from front of queue
+* size() : Returns number of elements in queue.
+* front() : Finds front item.
+4. Sorting a Queue without extra space
+
