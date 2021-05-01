@@ -100,7 +100,7 @@ is intended only to show the matching and nesting structure for tags in the lang
 Describe a structure which provides two stacks with a single array as backup structure. Implement the Pop and Push operations.
 
 *Queue ADT based problems*
-1. Implementation of Queue ADT based on list with caoacity management
+1. Implementation of Queue ADT based on list with capacity management
 2. Given M integers, task is to find the frequency of each number in the Queue.
 3. Given an integer K and a queue of integers, we need to reverse the order of the first K elements of the queue, leaving the other elements in the same relative order. Only following standard operations are allowed on queue.
 * enqueue(x) : Add an item x to rear of queue
@@ -109,3 +109,18 @@ Describe a structure which provides two stacks with a single array as backup str
 * front() : Finds front item.
 4. Sorting a Queue without extra space
 
+*Dequeue ADT based problems*
+1. Deque Implementation
+* len(D)    number of elements
+* D.appendleft( )   add to beginning
+* D.append( )   add to end
+* D.popleft( )  remove from beginning
+* D.pop()   remove from end
+* D.first( )    D[0]    access first element
+* D.last( ) D[−1]   access last element
+* D.clear( )    clear all contents
+2. Recently, on the course of algorithms and data structures, Valeriy learned how to use a deque. He built a deque filled with 𝑛 elements. The 𝑖-th element is 𝑎𝑖 (𝑖 = 1,2,…,𝑛). He gradually takes the first two leftmost elements from the deque (let's call them 𝐴 and 𝐵, respectively), and then does the following: if 𝐴>𝐵, he writes 𝐴 to the beginning and writes 𝐵 to the end of the deque, otherwise, he writes to the beginning 𝐵, and 𝐴 writes to the end of the deque. We call this sequence of actions an operation.
+
+For example, if deque was [2,3,4,5,1], on the operation he will write 𝐵=3 to the beginning and 𝐴=2 to the end, so he will get [3,4,5,1,2].
+The teacher of the course, seeing Valeriy, who was passionate about his work, approached him and gave him 𝑞 queries. Each query consists of the singular number 𝑚𝑗 (𝑗=1,2,…,𝑞). It is required for each query to answer which two elements he will pull out on the 𝑚𝑗-th operation.
+Note that the queries are independent and for each query the numbers 𝐴 and 𝐵 should be printed in the order in which they will be pulled out of the deque.
