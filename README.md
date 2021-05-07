@@ -124,3 +124,31 @@ Describe a structure which provides two stacks with a single array as backup str
 For example, if deque was [2,3,4,5,1], on the operation he will write 𝐵=3 to the beginning and 𝐴=2 to the end, so he will get [3,4,5,1,2].
 The teacher of the course, seeing Valeriy, who was passionate about his work, approached him and gave him 𝑞 queries. Each query consists of the singular number 𝑚𝑗 (𝑗=1,2,…,𝑞). It is required for each query to answer which two elements he will pull out on the 𝑚𝑗-th operation.
 Note that the queries are independent and for each query the numbers 𝐴 and 𝐵 should be printed in the order in which they will be pulled out of the deque.
+
+*Linked List - Operations and Some Problems*
+1. A node class of Linked List
+2. LinkedList class that starts with head and tail and keeps track of its size. The underlying storage is a list.
+3. Add a node to list
+4. Add a node to the left of list
+5. Add a node to the right of list
+6. Delete the head node
+7. Delete the tail node
+8. Delete the node being passed
+9. Delete the first node with value v
+10. Check if list is empty
+11. Return the first element in list
+12. Return the size of list
+13. Return the head node
+14. Cheeck if the list passed is same (has same values) as this node
+15. String representation of the list
+16. Driver code
+17. Reverse Linked List (Recursive Solution)
+18. Check if linked list is palindrome or not
+19. Given a linked list containing 0s, 1s and 2s, sort linked list by doing a single traversal of it.
+20. You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and  each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4) Output: 7 -> 0 -> 8
+
+342 + 465 = 807
+
+Make sure there are no trailing zeros in the output list. So, 7 -> 0 -> 8 -> 0 is not a valid response even though the value is still 807.
