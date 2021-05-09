@@ -152,3 +152,18 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4) Output: 7 -> 0 -> 8
 342 + 465 = 807
 
 Make sure there are no trailing zeros in the output list. So, 7 -> 0 -> 8 -> 0 is not a valid response even though the value is still 807.
+
+*Circular Linked List and a couple*
+1. Implement Circular LinkedList with methods
+* enqueue - Add an element to the back of queue.
+* dequeue - Remove and return the first element of the queue (i.e., FIFO).
+* rotate - Rotate front element to the back of the queue.
+* first - Return (but do not remove) the element at the front of the queue.
+* is_empty - Return True if the queue is empty
+* delete_node - Delete a node with given value in Circular list
+* delete_kth_node - Delete kth node in Circular list
+* __len__ - Return the number of elements in the queue.
+2. Split Circular Linked List Into Two Equal halves
+3. In computer science and mathematics, the Josephus Problem (or Josephus permutation) is a theoretical problem. Following is the problem statement: There are n people standing in a circle waiting to be executed. The counting out begins at some point in the circle and proceeds around the circle in a fixed direction. In each step, a certain number of people are skipped and the next person is executed. The elimination proceeds around the circle (which is becoming smaller and smaller as the executed people are removed), until only the last person remains, who is given freedom. Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle. The task is to choose the place in the initial circle so that you are the last one remaining and so survive.<br>
+For example, if n = 5 and k = 2, then the safe position is 3. Firstly, the person at position 2 is killed, then person at position 4 is killed, then person at position 1 is killed. Finally, the person at position 5 is killed. So the person at position 3 survives.<br>
+If n = 7 and k = 3, then the safe position is 4. The persons at positions 3, 6, 2, 7, 5, 1 are killed in order, and person at position 4 survives.
