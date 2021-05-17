@@ -167,3 +167,27 @@ Make sure there are no trailing zeros in the output list. So, 7 -> 0 -> 8 -> 0 i
 3. In computer science and mathematics, the Josephus Problem (or Josephus permutation) is a theoretical problem. Following is the problem statement: There are n people standing in a circle waiting to be executed. The counting out begins at some point in the circle and proceeds around the circle in a fixed direction. In each step, a certain number of people are skipped and the next person is executed. The elimination proceeds around the circle (which is becoming smaller and smaller as the executed people are removed), until only the last person remains, who is given freedom. Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle. The task is to choose the place in the initial circle so that you are the last one remaining and so survive.<br>
 For example, if n = 5 and k = 2, then the safe position is 3. Firstly, the person at position 2 is killed, then person at position 4 is killed, then person at position 1 is killed. Finally, the person at position 5 is killed. So the person at position 3 survives.<br>
 If n = 7 and k = 3, then the safe position is 4. The persons at positions 3, 6, 2, 7, 5, 1 are killed in order, and person at position 4 survives.
+
+*Doubly Linked List*
+1. A node class to represnet a node of a doubly linked list with references to previous and next
+2. The doubly linked list class with references to nodes that are head and tail of the list
+3. Add to the front of the list
+4. Add after the node
+5. Add before a node
+6. Add to the end of the list
+7. Delete a node from the list
+8. Return an iterator to the list
+9. Reverse the list using a generator
+10. Return first element of the list
+11. Return last element of the list
+12. Rotate the list by n positions
+13. Get the kth node in the list
+14. The length of the list
+15. String representation of the list
+16. A class iterator using generator
+17. A class to represent a player with a score
+18. Driver code for the players in the doubly linked list fashion
+19. Standard driver code
+20. Given a doubly-linked list, the task is to swap Kth node from the beginning with Kth node from the ending.
+21. Given a doubly-linked list and an integer N, the task is to rotate the linked list clockwise by N nodes.
+
