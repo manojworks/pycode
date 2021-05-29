@@ -191,3 +191,32 @@ If n = 7 and k = 3, then the safe position is 4. The persons at positions 3, 6, 
 20. Given a doubly-linked list, the task is to swap Kth node from the beginning with Kth node from the ending.
 21. Given a doubly-linked list and an integer N, the task is to rotate the linked list clockwise by N nodes.
 
+*Binary Tree*
+
+1. A class representing a node in a Binary Tree
+2. A class representing a Binary Tree
+3. add_node - add a node
+4. remove_left_subtree - Removes the left subtree of the root
+5. remove_right_subtree - Removes the right subtree of the root
+6. remove_all_elements - Removes all elements from the tree
+7. contains - Determines if a particular element is in the tree
+8. __str__ - Returns a string representation of tree’s contents
+9. num_nodes - Number of nodes in the tree
+10. get_root - Root of the tree
+11. iterator_inorder - Returns an iterator for an inorder traversal
+12. inorder - Inorder traversal through the tee, returning the value
+13. inorder_node - Inorder traversal through the tee, returning the node
+14. iterator_postorder - Returns an iterator for a postorder traversal
+15. postorder - Postorder traversal through the tee, returning the node
+16. iterator_preorder - Returns an iterator for a preorder traversal
+17. preorder - Preorder traversal through the tee, returning the node
+18. iterator_level_order - Returns an iterator for a level order traversal
+19. find_node_and_parent - Returns a reference to the specified target and its parent, if found
+20. is_empty - Determines whether the tree is empty
+21. find_min - Get minimum node in the tree
+22. same_tree - Given two binary trees, return true if they are structurally identical -- they are made of nodes with the same values arranged in the same way.
+23. depth - Depth of the tree from the given node
+24. double_tree - Create a new duplicate for each node, and insert the duplicate as the left child of the original node.
+25. remove_node - Remove a node from the tree
+26. mirror - Change a tree so that the roles of the left and right pointers are swapped at every node.
+27. Driver code
