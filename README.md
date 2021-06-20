@@ -220,3 +220,23 @@ If n = 7 and k = 3, then the safe position is 4. The persons at positions 3, 6, 
 25. remove_node - Remove a node from the tree
 26. mirror - Change a tree so that the roles of the left and right pointers are swapped at every node.
 27. Driver code
+
+*Priority Queue*
+A priority queue is an abstract data type similar to a regular queue or stack data structure in which each element additionally has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to the order in which they were enqueued
+1. Class representing a node
+2. Class representing Priority Queue
+3. delete_with_priority - Delete a node with priority p
+4. insert_with_priority - Insert a node with priority p and value v
+5. peek_at_lowest_priority_element - Return (but do not remove) node with least priority
+6. peek_at_highest_priority_element - Return (but do not remove) node with highest priority
+7. str - string representation of the priority queue
+8. length - number of elements in the queue
+9. is_empty - determines if the queue is empty
+10. max_priority - what is the highest priority element in the queue
+11. min_priority - what is the least priority element in the queue
+12. extract_min_priority_node - remove the element with least priority
+13. iter - generate the next element in the queue
+14. merge_q - merge the queue with another queue
+15. GraphDS - A class that represents the graphs with edges and vetexes
+16. dijkstra - You are given a weighted undirected graph. The vertices are enumerated from 1 to n. Your task is to find the shortest path between the vertex 1 and the vertex n.
+17. Driver code for priority queue and graph
