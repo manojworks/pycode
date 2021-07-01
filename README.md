@@ -240,3 +240,21 @@ A priority queue is an abstract data type similar to a regular queue or stack da
 15. GraphDS - A class that represents the graphs with edges and vetexes
 16. dijkstra - You are given a weighted undirected graph. The vertices are enumerated from 1 to n. Your task is to find the shortest path between the vertex 1 and the vertex n.
 17. Driver code for priority queue and graph
+
+*Heap Queue*
+1. A Heap Priority Queue using an array-based heap
+2. add - Add a key-value pair to the Heap Priority Queue
+3. min - Return but do not remove (k,v) tuple with minimum key, Raise Empty exception if empty
+4. remove_min - Remove and return (k,v) tuple with minimum key. Raise Empty exception if empty.
+5. _parent(self, j) - Index of the parent of index j
+6. _left(self, j) - Index of left child node at index j
+7. _right(self, j) - Index of right child node at index j
+8. _has_left(self, j) - Is there a left child of element at index j
+9. _has_right(self, j) - Is there a right child of element at index j
+10. _swap(self, i, j) - swap elements at indexes i and j
+11. _upheap(self, j) - take the element at index j to its right position up the heap
+12. _downheap(self, j) - take the element at index j to its right position down the heap
+13. pushpop(e) - Push element e and then pop and return the smallest item.
+14. _upheap_max(self, j) - Helper function to assist transformation of min heap to max heap
+15. add_max(self, k, v) - add element to max heap
+16. transform_to_max_heap(hmin) - Convert max heap to min heap in linear time 
