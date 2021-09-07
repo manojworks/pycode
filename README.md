@@ -258,3 +258,6 @@ A priority queue is an abstract data type similar to a regular queue or stack da
 14. _upheap_max(self, j) - Helper function to assist transformation of min heap to max heap
 15. add_max(self, k, v) - add element to max heap
 16. transform_to_max_heap(hmin) - Convert max heap to min heap in linear time 
+
+*Heap Sort*
+Sorting using Binary Heap data structure using array.
