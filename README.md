@@ -342,18 +342,49 @@ Decrypt each line and print it to standard output. If there are multiple solutio
 
 Sample Input
 
-6
-and
-dick
-jane
-puff
-spot
-yertle
-bjvg xsb hxsn xsb qymm xsb rqat xsb pnetfn
-xxxx yyy zzzz www yyyy aaa bbbb ccc dddddd
+- 6
+- and
+- dick
+- jane
+- puff
+- spot
+- yertle
+- bjvg xsb hxsn xsb qymm xsb rqat xsb pnetfn
+- xxxx yyy zzzz www yyyy aaa bbbb ccc dddddd
 
 Sample Output
 
-dick and jane and puff and spot and yertle
-**** *** **** *** **** *** **** *** ******
+- dick and jane and puff and spot and yertle
+- '**** *** **** *** **** *** **** *** ******'
 
+5.
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all  the original letters exactly once.
+
+Example 1:
+
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+Example 2:
+
+Input: strs = [""]
+
+Output: [[""]]
+
+Example 3:
+
+Input: strs = ["a"]
+
+Output: [["a"]]
+
+Constraints:
+
+1 <= strs.length <= 104
+
+0 <= strs[i].length <= 100
+
+strs[i] consists of lowercase English letters.
+
+6. Implement TicTacToe
